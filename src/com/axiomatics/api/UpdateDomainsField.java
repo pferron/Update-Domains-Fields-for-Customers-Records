@@ -62,17 +62,17 @@ public class UpdateDomainsField {
 		/****************************  Test Instance Connection ************************/
 		/*******************************************************************************/
 	    // Connection parameters
-	    /*String getAllCustomersUrl = "https://app.na2.teamsupport.com/api/json/customers";
-		String username = "1205149";
-		String password = "041cf131-7d7a-4285-a674-fb906a513b6e";*/
+	    /*String getAllCustomersUrl = "https://xxxxxxxxxxxxx/api/json/customers";
+		String username = "xxxxxx";
+		String password = "xxxxxxxxxxxxxxxxxxxxx";*/
 		
 		
 		/*******************************************************************************/
 		/*************************  Production Instance Connection *********************/
 		/*******************************************************************************/
-		String getAllCustomersUrl = "https://app.teamsupport.com/api/json/customers";
-		String username = "1102306";
-		String password = "34eb26b7-d195-4d70-94b6-0fdeb9634b51";
+		String getAllCustomersUrl = "https://xxxxxxxxxxxxx/api/json/customers";
+		String username = "xxxxxxxxx";
+		String password = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
 
 		
 		StringBuffer httpResponse = http.sendGet(getAllCustomersUrl, username, password);
